@@ -73,13 +73,14 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.gamigedara"
+    namespace "net.softmint.gamigedara"
     defaultConfig {
-        applicationId "com.gamigedara"
+        applicationId "net.softmint.gamigedara"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
     signingConfigs {
         debug {
